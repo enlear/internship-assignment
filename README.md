@@ -14,6 +14,10 @@ You can open the `index.html` file through the LiveServer extension or by openin
 
 - LiveServer - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
+## Setup 
+
+**Important**: Create a fork of this repository onto your own GitHub account and attempt this assessment in your forked repository.
+
 ## Tasks
 
 The tasks that you are required to attempt are broken down under the following categories:
@@ -73,3 +77,7 @@ removeButton.addEventListener("click", () => {});
 
 Your task is to implement the functionality of removing a list item. When the remove button is clicked, your code should remove a list item.
 Your code should start removing items from the bottom.
+
+## Submitting Guidelines
+
+Once you are done with the assessment, push your changes to your fork and create a Pull Request with the title = "<<YOUR-NAME>> | SE Internship"
