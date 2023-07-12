@@ -80,4 +80,4 @@ Your code should start removing items from the bottom.
 
 ## Submitting Guidelines
 
-Once you are done with the assessment, push your changes to your fork and create a Pull Request with the title = "<<YOUR-NAME>> | SE Internship"
+Once you are done with the assessment, push your changes to your fork and create a Pull Request with the title = "YOUR-NAME | SE Internship"
