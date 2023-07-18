@@ -83,4 +83,5 @@ Your code should start removing items from the bottom.
 
 ## Submitting Guidelines
 
-Work on the branch titled with your name, and push the changes to this branch.
+- Work on the branch titled with your name, and push the changes to this branch.
+- Open a Pull Request from your branch to `main`.
