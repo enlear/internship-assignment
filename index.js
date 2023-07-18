@@ -8,5 +8,9 @@ addButton.addEventListener("click", () => {});
 removeButton.addEventListener("click", () => {});
 
 clearButton.addEventListener("click", () => {
-  list.innerHTML = "";
+  
+  setTimeout(()=>{
+    list.innerHTML = "";
+    }, 2000)
+    
 });
