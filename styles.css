@@ -5,3 +5,7 @@
 .negative {
   background-color: red;
 }
+
+#un-ordered-list{
+  white-space: pre;
+}
