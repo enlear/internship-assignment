@@ -4,8 +4,16 @@ const clearButton = document.getElementById("clear");
 const list = document.getElementById("un-ordered-list");
 const input = document.getElementById("input");
 
-addButton.addEventListener("click", () => {});
-removeButton.addEventListener("click", () => {});
+addButton.addEventListener("click", () => {
+
+  const newlistitem = document.createElement("li");
+  newlistitem.innerText = input.value;
+  list.appendChild(newlistitem)
+});
+  
+removeButton.addEventListener("click", () => {
+  
+});
 
 clearButton.addEventListener("click", () => {
   
