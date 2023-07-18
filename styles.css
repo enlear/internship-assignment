@@ -2,6 +2,8 @@
   background-color: green;
 }
 
+/*back ground color changed to red from black - Bug fixed*/
+
 .negative {
-  background-color: black;
+  background-color: red;
 }
