@@ -31,6 +31,9 @@ removeButton.addEventListener("click", () => {
     lastListItem.remove();
 
   }
+  else {
+    // alert("The value cannot be empty");
+  }
   
 });
 
