@@ -2,6 +2,8 @@
 
 This repository is an assessment that aims to build a TO-DO list that a candidate is required to complete to proceed to the second stage of internship interview at Enlear.
 
+Important: Please work on a Fork, and not on the main repository. Once you are done, open a Pull Request with your updated work.
+
 ## Repository Walkthrough
 
 This repository contains the following:
