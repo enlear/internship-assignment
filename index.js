@@ -25,5 +25,10 @@ removeButton.addEventListener("click", () => {
 });
 
 clearButton.addEventListener("click", () => {
-  list.innerHTML = "";
+
+  setTimeout(() => {
+
+    list.innerHTML = "";
+    
+  }, 2000); // make clear list after 2 second after button clicked
 });
