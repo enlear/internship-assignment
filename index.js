@@ -20,8 +20,18 @@ addButton.addEventListener("click", () => {
     // alert("The value cannot be empty");
   }
 });
+
 removeButton.addEventListener("click", () => {
 
+  const listItems = document.querySelectorAll("li");
+  const lastListItem = listItems[listItems.length - 1];
+
+  if (lastListItem) {
+
+    lastListItem.remove();
+
+  }
+  
 });
 
 clearButton.addEventListener("click", () => {
@@ -29,6 +39,8 @@ clearButton.addEventListener("click", () => {
   setTimeout(() => {
 
     list.innerHTML = "";
-    
+
   }, 2000); // make clear list after 2 second after button clicked
+
 });
+
