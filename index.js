@@ -4,8 +4,25 @@ const clearButton = document.getElementById("clear");
 const list = document.getElementById("un-ordered-list");
 const input = document.getElementById("input");
 
-addButton.addEventListener("click", () => {});
-removeButton.addEventListener("click", () => {});
+addButton.addEventListener("click", () => {
+
+  const listItemText = input.value.trim();
+  //check whether input area empty or not
+  if (listItemText !== "") {
+    const listItem = document.createElement("li");
+    listItem.textContent = listItemText;
+
+    list.appendChild(listItem);
+    //make empty after add the value to the list
+    input.value = "";
+  }
+  else {
+    // alert("The value cannot be empty");
+  }
+});
+removeButton.addEventListener("click", () => {
+
+});
 
 clearButton.addEventListener("click", () => {
   list.innerHTML = "";
