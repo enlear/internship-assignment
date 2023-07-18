@@ -2,8 +2,6 @@
 
 This repository is an assessment that aims to build a TO-DO list that a candidate is required to complete to proceed to the second stage of internship interview at Enlear.
 
-Important: Please work on a Fork, and not on the main repository. Once you are done, open a Pull Request with your updated work.
-
 ## Repository Walkthrough
 
 This repository contains the following:
@@ -18,7 +16,10 @@ You can open the `index.html` file through the LiveServer extension or by openin
 
 ## Setup 
 
-**Important**: Create a fork of this repository onto your own GitHub account and attempt this assessment in your forked repository.
+- Create a clone of this repository
+- Create a new branch with your name - `git checkout -b CANDIDATE-NAME`
+- Work on this branch.
+- Push changes to this branch.
 
 ## Tasks
 
@@ -82,4 +83,5 @@ Your code should start removing items from the bottom.
 
 ## Submitting Guidelines
 
-Once you are done with the assessment, push your changes to your fork and create a Pull Request with the title = "YOUR-NAME | SE Internship"
+- Work on the branch titled with your name, and push the changes to this branch.
+- Open a Pull Request from your branch to `main`.
