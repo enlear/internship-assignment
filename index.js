@@ -19,6 +19,13 @@ addButton.addEventListener("click", () => {
 });
 
 removeButton.addEventListener("click", () => {
+
+  if(list.childElementCount > 0){
+    list.removeChild(list.lastElementChild);
+  }
+  else{
+    alert("Your TO-DO list is Empty!!");
+  }
 });
 
 clearButton.addEventListener("click", () => {
